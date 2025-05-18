@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tentang Kami - EduSmart</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #003366;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #0059b3;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #004080;
+      margin-bottom: 30px;
+    }
+
+    .about-content {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #004080;
+      font-weight: bold;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .grid div {
+      background: #eaf3ff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduSmart</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Materi</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tentang Kami</h2>
+    <div class="about-content">
+      <p><span class="highlight">EduSmart</span> adalah platform edukasi digital yang bertujuan untuk membantu pelajar dan mahasiswa belajar lebih efektif dan menyenangkan. Kami menyediakan <span class="highlight">materi pelajaran berkualitas</span>, <span class="highlight">latihan soal</span>, <span class="highlight">tips belajar</span>, serta <span class="highlight">forum diskusi</span> yang memungkinkan kolaborasi antar pelajar.</p>
+
+      <div class="grid">
+        <div>
+          <h3>🎓 Visi Kami</h3>
+          <p>Menjadi platform edukasi digital terpercaya yang mendukung kemajuan pendidikan di Indonesia melalui teknologi.</p>
+        </div>
+        <div>
+          <h3>🚀 Misi Kami</h3>
+          <ul>
+            <li>Menyediakan materi belajar yang mudah diakses.</li>
+            <li>Mendorong kolaborasi dan diskusi antar pelajar.</li>
+            <li>Memberikan informasi terbaru tentang beasiswa dan kampus.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EduSmart. All rights reserved.</p>
+  </footer>
+</body>
+</html>

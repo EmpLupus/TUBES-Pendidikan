@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Materi - UNIBSmart</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8fafc;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #003366;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #0059b3;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #004080;
+      margin-bottom: 40px;
+    }
+
+    .card-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #003366;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UNIBSmart</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Materi</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Layanan Pembelajaran UNIBSmart</h2>
+    <ul class="card-list">
+      <li class="card">
+        <h3>📘 Materi Belajar & Soal Latihan</h3>
+        <p>Kami menyediakan materi dari berbagai jenjang pendidikan mulai dari SMA hingga kuliah, lengkap dengan soal-soal latihan yang dapat membantu siswa mengasah kemampuan secara mandiri.</p>
+      </li>
+      <li class="card">
+        <h3>📌 Tips Belajar Efektif</h3>
+        <p>Pelajari strategi belajar seperti teknik Pomodoro, mind-mapping, dan cara membuat rangkuman visual untuk meningkatkan daya ingat dan efisiensi belajar.</p>
+      </li>
+      <li class="card">
+        <h3>🎓 Info Beasiswa & Kampus</h3>
+        <p>Dapatkan informasi terbaru mengenai beasiswa dalam dan luar negeri, termasuk tips lolos seleksi, serta rekomendasi kampus terbaik sesuai minat dan jurusan kamu.</p>
+      </li>
+      <li class="card">
+        <h3>💬 Forum Diskusi Pelajaran</h3>
+        <p>Diskusikan soal-soal sulit dan materi yang belum dipahami bersama teman-teman dan tutor. Forum ini terbuka untuk semua pelajar yang ingin berbagi ilmu.</p>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UNIBSmart. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
